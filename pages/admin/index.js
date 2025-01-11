@@ -17,6 +17,7 @@ const Index = () => {
         }
       })
       setCategoryCount(res.data.data)
+      
     } catch (error) {
       console.log(error.message);
     }
@@ -30,6 +31,7 @@ const Index = () => {
         }
       })
       setSubCategoryCount(res.data.data)
+      
     } catch (error) {
       console.log(error.message);
     }
@@ -43,6 +45,7 @@ const Index = () => {
         }
       })
       setQuestionsCount(res.data.data)
+      
     } catch (error) {
       console.log(error.message);
     }
